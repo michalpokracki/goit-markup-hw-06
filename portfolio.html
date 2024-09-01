@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>WEBSTUDIO</title>
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-web">WEB</span><span class="logo-studio">STUDIO</span>
+            </a>
+            <nav>
+                <ul class="page-nav nav">
+                    <li><a href="./index.html" class="nav-item">Studio</a></li>
+                    <li><a href="./portfolio.html" class="nav-item">Portfolio</a></li>
+                    <li><a href="./contacts.html" class="nav-item">Contacts</a></li>
+                </ul>
+            </nav>
+            <ul class="contacts nav">
+                <li>
+                    <a class="nav-item" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="tel:+11(000)111-11-11">+11 (000) 111-11-11</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="section portfolio-filter">
+            <div class="container">
+                <ul class="portfolio-filter-content">
+                    <li><button type="button" class="portfolio-filter-btn active">All</button></li>
+                    <li><button type="button" class="portfolio-filter-btn">Web Site</button></li>
+                    <li><button type="button" class="portfolio-filter-btn">App</button></li>
+                    <li><button type="button" class="portfolio-filter-btn">Design</button></li>
+                    <li><button type="button" class="portfolio-filter-btn">Marketing</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section portfolio-gallery">
+            <ul class="container portfolio-gallery-row">
+                <li>
+                    <img src="images/portfolio1.jpg" alt="Banking App Interface Concept" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Banking App Interface Concept</h3>
+                        <p>App</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/portfolio2.jpg" alt="Cashless Payment" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Cashless Payment</h3>
+                        <p>Marketing</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/portfolio3.jpg" alt="Meditation App" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Meditation App</h3>
+                        <p>App</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="container portfolio-gallery-row">
+                <li>
+                    <img src="images/portfolio4.jpg" alt="Taxi Service" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Taxi Service</h3>
+                        <p>Marketing</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/portfolio5.jpg" alt="Screen Illustrations" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Screen Illustrations</h3>
+                        <p>Design</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/portfolio6.jpg" alt="Online Courses" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Online Courses</h3>
+                        <p>Marketing</p>
+                    </div>
+                </li>
+            </ul>
+            <ul class="container portfolio-gallery-row">
+                <li>
+                    <img src="images/portfolio7.jpg" alt="Instagram Stories Concept" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Instagram Stories Concept</h3>
+                        <p>Design</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/portfolio8.jpg" alt="Organic Food" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Organic Food</h3>
+                        <p>Web Site</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/portfolio9.jpg" alt="Fresh Coffee" width="360">
+                    <div class="portfolio-gallery-desc">
+                        <h3>Fresh Coffee</h3>
+                        <p>Web Site</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content container">
+            <div>
+                <a href="index.html" class="logo">
+                    <span class="logo-web">WEB</span><span class="logo-studio-footer">STUDIO</span>
+                </a>
+                <p>
+                    Increase the flow of customers and <br />
+                    sales for your business with digital<br />
+                    marketing & growth solutions.
+                </p>
+            </div>
+
+            <div class="footer-social">
+                <p>Social media</p>
+                <div class="personal-info-media">
+                    <img src="images/instagram.svg" alt="instagram" />
+                    <img src="images/twitter.svg" alt="twitter" />
+                    <img src="images/facebook.svg" alt="facebook" />
+                    <img src="images/linkedin.svg" alt="linkedin" />
+                </div>
+            </div>
+            <div class="footer-form">
+                <p>Subscribe</p>
+                <form name="subscribe" autocomplete="off" novalidate>
+                    <input type="text" name="email" id="email" placeholder="E-mail" />
+                    <button type="submit" id="subscribe">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
